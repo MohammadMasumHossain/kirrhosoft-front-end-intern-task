@@ -32,7 +32,7 @@ const Plan: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-20 px-5 md:px-10 lg:px-20">
+    <section className="bg-gray-50 py-10 px-5 md:px-10 lg:px-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10">
         Pricing Plans
       </h2>

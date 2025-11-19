@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
 import Plan from '../components/Plan';
+import SocialProof from '../components/SocialProof';
 
 
 const HomeLayout = () => {
@@ -17,7 +18,9 @@ const HomeLayout = () => {
             <main>
                <Outlet></Outlet> 
             </main>
+            
             <Plan></Plan>
+            <SocialProof></SocialProof>
             <Contact></Contact>
             <Footer></Footer>
 
