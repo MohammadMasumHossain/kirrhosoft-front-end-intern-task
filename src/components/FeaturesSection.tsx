@@ -62,26 +62,32 @@ const FeaturesSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-14 md:py-20 bg-gray-50">
       {/* Section Heading */}
-      <div className="text-center max-w-2xl mx-auto mb-14">
-        <h4 className="text-gray-500 tracking-widest uppercase">
+      <div className="text-center max-w-2xl mx-auto mb-10 md:mb-14 px-4">
+        <h4 className="text-gray-500 tracking-widest uppercase text-sm md:text-base">
           Powerful Features
         </h4>
-        <h2 className="text-4xl font-bold text-gray-900 mt-2">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mt-2">
           Why Our POS System Stands Out
         </h2>
-        
       </div>
 
       {/* Feature Cards */}
-      <div className="max-w-7xl mx-auto grid gap-8 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div
+        className="
+          max-w-7xl mx-auto px-4
+          grid gap-6 sm:gap-8
+          grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
+        "
+      >
         {features.map((feature) => (
           <div
             key={feature.id}
             className="
-              bg-white p-7 rounded-xl border shadow-sm hover:shadow-xl
-              hover:-translate-y-2 transition duration-300 cursor-default
+              bg-white p-6 md:p-7 rounded-xl border shadow-sm 
+              hover:shadow-xl hover:-translate-y-2
+              transition duration-300 cursor-default
             "
           >
             <div className="text-rose-600 mb-4">{feature.icon}</div>

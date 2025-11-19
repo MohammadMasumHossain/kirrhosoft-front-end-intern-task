@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Section 1: Brand */}
         <div>
           <img
-            src="/src/assets/more/logo1.png"
+            src="/assets/more/logo1.png"
             alt="Coffee Logo"
             className="w-16 h-16 mx-auto md:mx-0 mb-4"
           />

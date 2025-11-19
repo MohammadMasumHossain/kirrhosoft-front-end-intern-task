@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">
           <img
-            src="/src/assets/more/logo1.png" // update path accordingly
+            src="/assets/more/logo1.png" // update path accordingly
             alt="Espresso Emporium Logo"
             className="h-10 w-auto"
           />
