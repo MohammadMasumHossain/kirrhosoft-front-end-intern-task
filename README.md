@@ -137,5 +137,14 @@ Perfect for business inquiries.
 
 ```bash
 git clone https://github.com/MohammadMasumHossain/kirrhosoft-front-end-intern-task.git
+
+### 2️⃣ Navigate to the Project Folder
 cd coffee-store
+
+### 3️⃣ Install Dependencies
+   npm install
+###  4️⃣ Start the Development Server
+
+   npm run dev
+
 
