@@ -7,6 +7,9 @@ import Contact from '../components/Contact';
 import Plan from '../components/Plan';
 import SocialProof from '../components/SocialProof';
 import Products from '../components/Products';
+import FollowOnInstagram from '../components/Followoninstagram';
+import FeaturesSection from '../components/FeaturesSection';
+
 
 
 const HomeLayout = () => {
@@ -16,6 +19,9 @@ const HomeLayout = () => {
                 <Navbar></Navbar>
                 <Hero></Hero>
                 <Products></Products>
+                <FollowOnInstagram></FollowOnInstagram>
+                <FeaturesSection></FeaturesSection>
+                
                 </header>
             <main>
                <Outlet></Outlet> 
