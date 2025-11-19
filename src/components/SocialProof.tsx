@@ -55,7 +55,7 @@ const SocialProof: React.FC = () => {
     },
   ];
 
-   const logos = ["/src/assets/more/logo1.png"];
+   const logos = ["/assets/more/logo1.png"];
 
   const cardVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
