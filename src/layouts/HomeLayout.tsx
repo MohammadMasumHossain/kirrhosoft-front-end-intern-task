@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Contact from '../components/Contact';
 import Plan from '../components/Plan';
 import SocialProof from '../components/SocialProof';
+import Products from '../components/Products';
 
 
 const HomeLayout = () => {
@@ -14,6 +15,7 @@ const HomeLayout = () => {
             <header> 
                 <Navbar></Navbar>
                 <Hero></Hero>
+                <Products></Products>
                 </header>
             <main>
                <Outlet></Outlet> 
