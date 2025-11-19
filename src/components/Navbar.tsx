@@ -6,7 +6,7 @@ import { Menu } from "lucide-react";
 const Navbar = () => {
   return (
     <nav className="w-full bg-[#2d1f1a] text-white shadow-md">
-      <div className="max-w-8xl mx-auto px-16 py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6  py-3 flex items-center justify-between">
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">
           <img
